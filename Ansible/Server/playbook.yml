@@ -1,0 +1,13 @@
+- name: instalar server
+  become: yes
+  hosts: <<hostname.dyn.if.usp.br>>
+
+  vars:
+    sambadc_realm: "<<dcdomain.dyn.if.usp.br>>"
+    samadc_admin_password: '<<password>>'
+    interfaces: "ens34 lo"
+
+  roles:
+    - uspdev.install_samba
+    - uspdev.sambadc
+    

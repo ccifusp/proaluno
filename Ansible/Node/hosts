@@ -1,0 +1,10 @@
+[prod]
+# info do terminal - prod é produção SQN
+<<hostname.dyn.if.usp.br>> ansible_ssh_host='<<IP>>'
+
+[prod:vars]
+# info para usar o ssh a partir do seu sistema
+remote_user = root
+ansible_user="root"
+ansible_ssh_private_key_file="~/.ssh/id_rsa"
+

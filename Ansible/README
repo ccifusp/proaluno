@@ -1,0 +1,14 @@
+Para executar o playbook é preciso ter acesso ao shell do terminal como user root, abaixo está a receita:
+
+No terminal, Instalar o pacote
+
+openssh-server
+
+e copiar a chave publica de ssh do seu user do seu sistema com ansible
+
+~/.ssh/id_rsa.pub
+
+para o terminal, na conta do user root como
+
+/root/.ssh/authorized_keys
+

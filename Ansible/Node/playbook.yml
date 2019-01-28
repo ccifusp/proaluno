@@ -1,0 +1,90 @@
+- hosts: <<hostname.dyn.if.usp.br>>
+  sudo: yes
+  tasks:
+  - name: Garantir pacotes basicos no node
+    apt: name={{item}} state=latest update_cache=yes
+    with_items:
+    - adcli
+    - realmd
+    - krb5-user
+    - samba-common-bin
+    - samba-libs
+    - samba-dsdb-modules
+    - sssd
+    - sssd-tools
+    - libnss-sss
+    - packagekit
+    - policykit-1
+  - name: Insert a line at the end of a file.
+# adicionar as informacoes de DNS do controlador do dominio
+    lineinfile:
+      path: /etc/hosts
+      line: '<<IP>> <<server.dcdomain.dyn.if.usp.br>> <<server>>'
+  - name: Copy a new interfaces file into place, backing up the original if it differs from the copied version
+    copy:
+      src: ./configs/interfaces
+      dest: /etc/network/interfaces
+      owner: root
+      group: root
+      backup: yes
+  - name: Copy a new krb5.conf file into place, backing up the original if it differs from the copied version
+    copy:
+      src: ./configs/krb5.conf
+      dest: /etc/krb5.conf
+      owner: root
+      group: root
+      backup: yes
+  - name: Copy a new realmd.conf file into place, backing up the original if it differs from the copied version
+    copy:
+      src: ./configs/realmd.conf
+      dest: /etc/realmd.conf
+      owner: root
+      group: root
+      backup: yes
+  - name: Copy a new smb.conf file into place, backing up the original if it differs from the copied version
+    copy:
+      src: ./configs/smb.conf
+      dest: /etc/samba/smb.conf
+      owner: root
+      group: root
+      backup: yes
+  - name: Copy a new common-account file into place, backing up the original if it differs from the copied version
+    copy:
+      src: ./configs/common-account
+      dest: /etc/pam.d/common-account
+      owner: root
+      group: root
+      backup: yes
+  - name: Copy a new timesyncd.conf file into place, backing up the original if it differs from the copied version
+    copy:
+      src: ./configs/timesyncd.conf
+      dest: /etc/systemd/timesyncd.conf
+      owner: root
+      group: root
+      backup: yes
+  - name: Copy a new sssd.conf file into place, backing up the original if it differs from the copied version
+    copy:
+      src: ./configs/sssd.conf
+      dest: /etc/sssd/sssd.conf
+      owner: root
+      group: root
+      mode: 0600
+      backup: yes
+  - name: enable service realmd and ensure it is not masked
+    systemd:
+      name: realmd
+      enabled: yes
+      masked: no
+  - name: enable service sssd and ensure it is not masked
+    systemd:
+      name: sssd
+      enabled: yes
+      masked: no
+  - name: Make sure a service is running
+    systemd:
+      state: started
+      name: sssd
+  - name: Make sure a service is running
+    systemd:
+      state: started
+      name: realmd

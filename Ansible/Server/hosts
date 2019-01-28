@@ -1,0 +1,7 @@
+[prodnode]
+<<hostname.dyn.if.usp.br>> ansible_ssh_host='<<IP>>'
+
+[prodnode:vars]
+remote_user = root
+ansible_user="root"
+ansible_ssh_private_key_file="~/.ssh/id_rsa"
