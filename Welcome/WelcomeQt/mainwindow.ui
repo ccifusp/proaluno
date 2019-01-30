@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1070</width>
+    <height>707</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Código de Ética - Projeto Schenberg</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; font-size:14pt; font-weight:600; color:#000000; background-color:transparent;&quot;&gt;Código De Ética Do Aluno Usuário&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt;O uso deste equipamento implica na aceitação destas normas. Se discordar, faça logoff imediatemente.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt;A Sala do Programa Pró-Aluno têm por objetivo oferecer infraestrutura necessária para o desenvolvimento de atividades acadêmicas e de pesquisa que necessitam de recursos computacionais.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%; font-family:'Chilanka'; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt;Este Código de Ética estabelece normas de conduta que devem ser observadas por todos os alunos que se utilizam de Salas do Programa Pró-Aluno e implica a aceitação das regras descritas a seguir:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – Esta Sala é mantida com dinheiro &lt;/span&gt;&lt;span style=&quot; font-family:'Chilanka'; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;PÚBLICO&lt;/span&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt;, sendo portanto sua obrigação preservar as instalações, equipamentos e material didático que estão colocados à sua disposição. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%; font-family:'Chilanka'; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – Zelar pela integridade e conservação das máquinas que compõem o acervo da Pró-Aluno, em especial dos computadores em seu poder.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%; font-family:'Chilanka'; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – Não devem ser alteradas as configurações atuais dos computadores, bem como feitas quaisquer modificações no ambiente de trabalho, contendo diretórios, criação de senhas de acesso ou outras definições que possam alterar o padrão de operação do equipamento. As possíveis alterações verificadas ou ocorridas nas máquinas deverão ser comunicadas aos funcionários do setor.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – É proibido aos usuários, abrir equipamentos computacionais pertencentes aos laboratórios, bem como a retirada de qualquer componente (mouse, teclado, etc.), independentemente de qualquer justificativa ou motivo.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – Os softwares instalados nos microcomputadores estão disponíveis para uso geral, porém é proibida a sua cópia ou instalação em outros equipamentos.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – É proibida a criação e/ ou utilização de programas que tenham o objetivo de obter senhas de outros usuários.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – É proibido o desenvolvimento e a disseminação de vírus de computador nos computadores da Pró-Aluno.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – A Pró-Aluno não se responsabiliza por nenhum tipo de documento salvo nos computadores.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – O papel colocado nos periféricos de saída (impressoras, plotters, etc) deve ser utilizado de maneira não abusiva. O responsável pela Sala e os monitores da Unidade estão autorizados a interromper as impressões que não respeitarem esse compromisso.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%; font-family:'Chilanka'; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – A integridade e segurança dos arquivos gravados no disco rígido (HD) não serão de responsabilidade da Pró-Aluno, cabendo aos respectivos proprietários a guarda de uma cópia em seu poder.&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – É proibida a utilização dos computadores para acesso de sites que afrontem os princípios éticos, morais e culturais do instituto, desvirtuando seu objetivo e finalidade. &lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – É proibido o acesso a sites pornográficos, se sujeitando o usuário a ver determinada sua retirada do recinto por atitude inconveniente, incompatível com o local frequentado sujeitando-se a ser punido de acordo com as normas da Instituição. &lt;/span&gt;&lt;span style=&quot; font-family:'Chilanka'; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;Utilizar os computadores disponíveis apenas para fins acadêmicos.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; font-weight:696; color:#000000; background-color:transparent;&quot;&gt; – A violação destas regras acarreta ao aluno infrator penalidades que variam de SUSPENSÃO TEMPORÁRIA do acesso aos recursos disponíveis nesta sala até a sua ELIMINAÇÃO do Programa, dependendo da gravidade. Essas penalidades, quando aplicadas, serão comunicadas ao aluno.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%; font-family:'Chilanka'; font-weight:696; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – Não deixar lixo em cima das máquinas, mesas ou no chão.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – É responsabilidade do usuário desligar o computador após sua utilização. Desligar os equipamentos ao terminar as suas atividades e organizar a sala antes de sair.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:120%;&quot;&gt;&lt;span style=&quot; font-family:'Chilanka'; color:#000000; background-color:transparent;&quot;&gt; – Para obter informações mais detalhadas ou em caso de dúvidas/sugestões, procure o responsável pela sala ou os monitores.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1070</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
