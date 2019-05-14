@@ -1,0 +1,9 @@
+# /etc/network/interfaces
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+auto wlp1s0
+iface wlp1s0 inet dhcp
+  wireless-essid IFnet_Fast
+dns-nameserver 143.107.128.189
+dns-domain smbdomain.if.usp.br
